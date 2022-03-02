@@ -2,9 +2,6 @@ import React,{useState} from 'react';
 
 function ResultBlock({resultArray, n, p}) {
 
-
-
-
 console.log( "whatt")
 
   return (

@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 
 
-function KeyBoard({onPress, delClick, onEnt, resultArray}) {
+function KeyBoard({onPress, delClick, onEnt, resultArray, n, p}) {
   return (
 
 
@@ -18,7 +18,7 @@ function KeyBoard({onPress, delClick, onEnt, resultArray}) {
           <button className="key" data-key="9" onClick={onPress}>9</button>
           <button className="key" data-delete  onClick={delClick}>del</button>
           <button className="key" data-key="0" onClick={onPress}>0</button>
-          <button className="key" data-enter onClick={()=>onEnt("Brook u slayy",resultArray)}>Ent</button>
+          <button className="key" data-enter onClick={()=>onEnt("Brook u slayy",resultArray, n , p)}>Ent</button>
     </div>
   );
 }

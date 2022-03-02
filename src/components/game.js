@@ -73,7 +73,7 @@ const [p, setP] = useState(null)
       <ResultBlock resultArray={finalNum} randomNumber={random}  p={p} n={n} />
       <InputBlock number={number} index={index} />
       <button className="h-button">History</button>
-      <KeyBoard onPress={onclick} delClick={onDel} onEnt={onEnt} resultArray={finalNum}/>
+      <KeyBoard onPress={onclick} delClick={onDel} onEnt={onEnt} resultArray={finalNum}  p={p} n={n}/>
     </div>
   );
 }
